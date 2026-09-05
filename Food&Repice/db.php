@@ -1,5 +1,5 @@
 <?php
-$host = '127.0.0.1';
+$host = 'Localhost';
 $db   = 'food_db';
 $user = 'root';
 $pass = ''; // เปลี่ยนตามรหัสผ่าน MySQL ของคุณ
