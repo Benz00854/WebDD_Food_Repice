@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    min-height: 100vh;
+    color: #2d3748;
+}
+
+/* Typography & General */
+h2,
+h4,
+h5 {
+    font-weight: 600;
+    color: #b0b1b1;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+
+/* Table Styling */
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background-color: #2d3748 !important;
+    color: #ffffff !important;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-bottom: none;
+    padding: 1rem;
+}
+
+.table tbody td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.table tbody tr {
+    transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f7fafc !important;
+    transform: scale(1.01);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 0.5rem 1.2rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(118, 75, 162, 0.3);
+    color: white;
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    border: none;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(253, 160, 133, 0.3);
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ff0844 0%, #ffb199 100%);
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(255, 8, 68, 0.3);
+    color: white;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    border: none;
+    color: white;
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(79, 172, 254, 0.3);
+    color: white;
+}
+
+/* Badges */
+.badge {
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.badge.bg-info {
+    background-color: #e1f5fe !important;
+    color: #0277bd !important;
+}
+
+/* Forms */
+.form-control,
+.form-select {
+    border-radius: 12px;
+    border: 2px solid #edf2f7;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.15);
+    border-color: #667eea;
+    background-color: #ffffff;
+}
+
+.form-label {
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+}
+
+/* Card Header in manage.php */
+.card-header.bg-dark {
+    background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%) !important;
+    border-bottom: none;
+}
+
+/* Recipe Rows */
+.recipe-row {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 12px !important;
+    border: 2px dashed #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.recipe-row:hover {
+    border-color: #cbd5e0;
+    background: #f7fafc;
+    transform: translateX(5px);
+}
+
+/* Images */
+img.rounded {
+    border-radius: 12px !important;
+    transition: transform 0.3s ease;
+}
+
+img.rounded:hover {
+    transform: scale(1.1);
+}

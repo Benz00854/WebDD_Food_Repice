@@ -94,8 +94,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title><?= $id ? 'แก้ไข' : 'เพิ่ม' ?>เมนูอาหาร</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
 </head>
-<body class="bg-light">
+<body>
     <div class="container my-5" style="max-width: 750px;">
         <div class="card shadow-sm border-0">
             <div class="card-header bg-dark text-white p-3">
